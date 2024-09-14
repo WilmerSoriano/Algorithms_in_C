@@ -1,2 +1,6 @@
 # More_C_Program
-More indept work of my C program work, theory, and projects
+
+A more in-depth exploration of my C programming skills,
+with a particular emphasis on implementing algorithms in C to develop 
+a deeper conceptual understanding of algorithm efficiency 
+and time complexity (e.g., Big O notation)
