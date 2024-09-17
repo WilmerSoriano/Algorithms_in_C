@@ -1,6 +1,16 @@
 /* InsertionSort by Wilmer Soriano*/
 
 
+/*
+	This program take a single column of numbers (preferly hundreds-thousand digit value)
+	Count each line, beging to perform an InsertionSort, and determine tick time.
+	1 tick = 1 microsecond
+	
+	(OPTIONAL) When you compile you may use the 
+		gcc -DPRINTARRAY InsertionSort.c
+	to print the value before and after sorting.
+*/
+
 #include <stdlib.h> 
 #include <stdio.h> 
 #include <string.h>
@@ -9,7 +19,7 @@
 void FileHand_ArrayFill(int argc, char *argv[],int **array, int *Size)
 {
 	char *file_name = argv[1];
-	char num [10] = {};
+	char num [10] = {};	// num is overridden every time we get a new value from a file, num does NOT store all the value.
 	int line = 0;
 	int a= 0;															  										
 	
@@ -23,16 +33,16 @@ void FileHand_ArrayFill(int argc, char *argv[],int **array, int *Size)
 	}
 	else
 	{
-		while(fgets(num, sizeof(num), file) != NULL)			//This loops as follows
+		while(fgets(num, sizeof(num), file) != NULL)	//Loop once to obtain the number of lines in a file.
 		{
 			line++;												
 		}
 
-		fseek(file, 0, SEEK_SET);
+		fseek(file, 0, SEEK_SET);						// Reset the Reader back to the beginning of the file line.
 		*array = (int*)malloc(line * sizeof(int));
 		*Size = line;
 
-		while(a < line)
+		while(a < line)								// Loop a 2nd time to obtain and store the values.
 		{
 			fgets(num, sizeof(num), file);
 			(*array) [a] = atoi(num);
@@ -52,21 +62,21 @@ void PrintArray(int ArrayToPrint[], int SizeAP)
 	}
 }
 
-void InsertionSort(int *A, int n)
+void InsertionSort(int *array, int Size)
 {
 	int i, key, j;
 
-	for(j = 1; j < n; j++)
+	for(j = 1; j < Size; j++)			// Saving the second value found in the array list
 	{
-		key = A[j];
+		key = array[j];
 		i= j - 1;
 
-		while (i >= 0 && A[i] > key)
+		while (i >= 0 && array[i] > key)	// Comparing the first value and second value  
 		{
-			A [i + 1] = A[i];
+			array [i + 1] = array[i];
 			i = i -1;
 		}
-		A [i + 1] = key;
+		array [i + 1] = key;
 	}
 }
 
@@ -96,7 +106,6 @@ int main(int argc, char* argv[])
 	printf("\nInsertion Sort = %ld Tics \n", end-start);
 
 	free(AP);
-
 
 	return 0; 
 } 
