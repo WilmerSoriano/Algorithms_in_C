@@ -1,0 +1,31 @@
+
+Deathbringer|Power|V|Rocket Launcher|15|90|1|429.583|63.47
+Cloudstrike|Energy|A|Sniper Rifle|140|55|7|178.059|49.01
+Hawkmoon|Kinetic|N|Hand Cannon|140|84|8|564.704|63.74
+Gjallarhorn|Power|S|Rocket Launcher|15|90|1|200.484|74.00 
+Jotunn|Energy|S|Fusion Rifle|820|95|5|225.075|64.65
+Outbreak Perfected|Kinetic|N|Pulse Rifle|450|27|35|422.810|66.27
+Lament|Power|S|Sword|40|74|60|587.097|71.44 
+The Chaperone|Kinetic|N|Shotgun|70|75|6|175.920|78.57 
+Thorn|Kinetic|N|Hand Cannon|140|84|11|268.106|70.17
+Anarchy|Power|A|Gernade Launcher|150|70|6|385.080|32.16 
+Telesto|Energy|V|Fusion Rifle|820|85|4|312.962|93.1 
+The Last Word|Kinetic|N|Hand Cannon|225|78|8|162.400|63.1 
+Sleeper Simulant|Power|S|Linear Fusion Rifle|1024|41|4|396.792|65.96 
+Lorentz Driver|Energy|V|Linear Fusion Rifle|533|41|6|287.424|59.39
+Dead Mans Tale|Kinetic|N|Scout Rifle|120|67|14|568.588|65.85
+Legend of Acrius|Power|A|Shotgun|55|85|4|247.730|29.08
+Duality|Energy|S|Shotgun|65|80|6|249.642|55.89
+Fighting Lion|Kinetic|V|Gernade Launcher|90|100|1|161.883|93.11
+Whisper of the Worm|Power|S|Sniper Rifle|72|100|3|397.848|58.04
+Forerunner|Kinetic|N|Sidearm|200|35|15|278.424|76.42
+The Fourth Horseman|Energy|A|Shotgun|360|80|4|209.261|43.35
+Vex Mythoclast|Energy|S|Auto Rifle|390|33|25|507.738|33.82
+Heir Apparent|Power|S|Machine Gun|115|39|115|439.600|65.16
+Eriana Vow|Energy|S|Hand Cannon|90|100|6|224.208|61.09
+Osteo Striga|Kinetic|N|SMG|600|25|27|331.240|80.1
+Two Tailed Fox|Power|V|Rocket Launcher|40|30|1|306.072|89.88
+Arbalest|Kinetic|N|Linear Fusion Rifle|533|41|5|287.500|93.32
+Tarrabah|Energy|S|SMG|750|23|31|468.450|24.43
+The Colony|Power|V|Gernade Launcher|140|30|7|113.792|92.89
+SUROS Regime|Kinetic|N|Auto Rifle|600|21|25|259.200|92.95
