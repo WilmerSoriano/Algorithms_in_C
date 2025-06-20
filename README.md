@@ -8,6 +8,9 @@ This repository offers an in-depth exploration of C programming, focusing on imp
 
 ## 🚀 Overview
 
+![Example](example.gif)
+
+
 * **Algorithm Implementations**
 
   * Sorting (Merge Sort, Quick Sort, Heap Sort)
