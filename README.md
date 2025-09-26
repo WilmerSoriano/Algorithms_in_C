@@ -2,7 +2,7 @@
 
 # C Programming: Algorithms & Core Concepts
 
-This repository offers an in-depth exploration of C programming, focusing on implementing classic algorithms to deepen your understanding of performance, memory management, and time complexity (Big O notation).
+This repository offers an in-depth exploration of my C programming skills, focusing on implementing classic algorithms to showcase my understanding of performance, memory management, and time complexity (Big O notation).
 
 ---
 
@@ -25,7 +25,7 @@ This repository offers an in-depth exploration of C programming, focusing on imp
 
 ---
 
-## 📋 Prerequisites
+## 📋 Requirements
 
 * A UNIX-like environment (Linux, macOS, WSL)
 * **GCC** (GNU Compiler Collection) or **Clang**
@@ -49,7 +49,7 @@ gcc program.c -o program
 ./program
 ```
 
-If your code uses multiple sources, list them all:
+If file algorithm uses multiple sources, list them all:
 
 ```bash
 compile:
@@ -61,7 +61,7 @@ Run:
 
 ### Merge Sort Example
 
-The `MergeSort.c` file accepts a test data file as a command‑line argument and sorts its contents (least to greatest).
+The `MergeSort.c` file accepts a test data file as a command‑line argument and sorts its contents (least to greatest). (For Test cases look into folder: 0_Test_Cases)
 
 ```c
 /* Merge Sort Example
@@ -93,10 +93,17 @@ Output shows sorted list; with `-DPRINTARRAY`, it’ll also display before-and-a
 Each algorithm’s source includes comments on:
 
 * Time Complexity (best/avg/worst case)
-* Space Complexity
+* Space Complexity graph (.xlsx)
 * Stability & In‑place characteristics
 
 Refer to the top of each `.c` file for detailed Big O analysis.
+
+---
+## NOTE ⚠️
+
+The Test Cases on the folder have a very long runtime, 
+you may create your own data.txt for shorter runtime.
+
 
 ---
 ## Contact Info! 🚀
