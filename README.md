@@ -1,5 +1,3 @@
-# More_C_Program
-
 # C Programming: Algorithms & Core Concepts
 
 This repository offers an in-depth exploration of my C programming skills, focusing on implementing classic algorithms to showcase my understanding of performance, memory management, and time complexity (Big O notation).
